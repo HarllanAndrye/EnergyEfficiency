@@ -143,7 +143,7 @@ calculandoMetricas <- function(tam, series, curvAleatorias){
   k.res <- kmeans(matrizSim, centers = qtdCluster, nstart = 25)
   matrizSim$cluster <- k.res$cluster
   # Validação
-  Dist <- dist(matrizSim[,-(ncol(matrizSim))], method = "euclidean")
+  Dist <- dist(matrizSim[,-(ncol(matrizSim))])
   dunnEuclid <- cluster.stats(Dist, matrizSim$cluster)$dunn
   silhouetteEuclid <- cluster.stats(Dist, matrizSim$cluster)$avg.silwidth
   # Calculando o MAE
@@ -171,7 +171,7 @@ calculandoMetricas <- function(tam, series, curvAleatorias){
   k.res <- kmeans(matrizSim, centers = qtdCluster, nstart = 25)
   matrizSim$cluster <- k.res$cluster
   # Validação
-  Dist <- dist(matrizSim[,-(ncol(matrizSim))], method = "euclidean") #
+  Dist <- dist(matrizSim[,-(ncol(matrizSim))])
   dunnDtw <- cluster.stats(Dist, matrizSim$cluster)$dunn
   silhouetteDtw <- cluster.stats(Dist, matrizSim$cluster)$avg.silwidth
   # Calculando o MAE
