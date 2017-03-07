@@ -1,0 +1,6 @@
+3 clusters, Silhouette = 0.222685950086768
+4 clusters, Silhouette = 0.219070039292614
+5 clusters, Silhouette = 0.222303862902403
+6 clusters, Silhouette = 0.222799258113405
+7 clusters, Silhouette = 0.242529797200754
+8 clusters, Silhouette = 0.227848201384646

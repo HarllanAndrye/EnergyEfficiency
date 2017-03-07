@@ -1,0 +1,6 @@
+3 clusters, Dunn = 0.716495350983721
+4 clusters, Dunn = 0.538669872930048
+5 clusters, Dunn = 0.544561132726361
+6 clusters, Dunn = 0.357847874897282
+7 clusters, Dunn = 0.406201025520895
+8 clusters, Dunn = 0.462117462003959
